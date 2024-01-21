@@ -27,7 +27,7 @@ layout = html.Div(
                     [
                         html.Div(  # Add Member Btn
                             [
-                                # Add movie button will work like a
+                                # Add member button will work like a
                                 # hyperlink that leads to another page
                                 dbc.Button(
                                     "Add Member",
@@ -51,7 +51,7 @@ layout = html.Div(
                             style={'display': 'flex'}  # Set display to flex for horizontal alignment
                         ),
                         html.Hr(),
-                        html.Div(  # Create section to show list of movies
+                        html.Div(  # Create section to show list of members
                             [
                                 html.H4('Find Member'),
                                 dbc.Row(

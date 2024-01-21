@@ -50,7 +50,7 @@ layout = html.Div(
                     [
                         html.Div( # Add Member Btn
                             [
-                                # Add movie button will work like a
+                                # Add class button will work like a
                                 # hyperlink that leads to another page
                                 dbc.Button(
                                     "Add Class",
