@@ -50,7 +50,7 @@ layout = html.Div(
                     [
                         html.Div( # Add Member Btn
                             [
-                                # Add movie button will work like a
+                                # Add class button will work like a
                                 # hyperlink that leads to another page
                                 dbc.Button(
                                     "Add Class",
@@ -60,7 +60,7 @@ layout = html.Div(
                             ]
                         ),
                         html.Hr(),
-                        html.Div( # Create section to show list of movies
+                        html.Div( # Create section to show list of classes
                             [
                                 html.H4('Search for a class'),
                                 dbc.Row(
