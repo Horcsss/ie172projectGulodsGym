@@ -1,5 +1,11 @@
 import dbconnect as db
 
+
+
+#IMPORTANTNOTE: NOT ALL TABLES WERE ADDED USING TEST_DB
+#PLEASE REFER TO THE BACKUP FILE FOR THE COMPLETE TABLES
+
+
 def adduserstable():
     sqlcode = """CREATE TABLE users (
         user_id serial primary key not null,
